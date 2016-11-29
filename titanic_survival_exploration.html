@@ -13631,6 +13631,10 @@ Make sure to keep track of the various features and conditions you tried before 
 <div class="text_cell_render border-box-sizing rendered_html">
 <h3 id="Question-4">Question 4<a class="anchor-link" href="#Question-4">&#182;</a></h3><p><em>Describe the steps you took to implement the final prediction model so that it got an accuracy of at least 80%. What features did you look at? Were certain features more informative than others? Which conditions did you use to split the survival outcomes in the data? How accurate are your predictions?</em><br>
 <strong>Hint:</strong> Run the code cell below to see the accuracy of your predictions.</p>
+<p>Well, if you look in the sample data you will see that people of Pclass = 1 and age &lt; 40
+were saved, and all woman with age &lt; 40 were saved, using this data we can conclusion that:
+if you was a woman of Pclass = 1 and age &lt; 40 you probably was saved. 
+if you was a man of Pclass = 3 and age &gt; 40 you probabli will be dead.</p>
 
 </div>
 </div>
@@ -13689,7 +13693,7 @@ Make sure to keep track of the various features and conditions you tried before 
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p><strong>Answer</strong>: Using decision tree to sugest downloads apps. We can use age, sex or Socio-economic clas to make a decision for wich app sugest.</p>
+<p><strong>Answer</strong>: Using decision tree to sugest downloads apps. We can use age, sex or Socio-economic class to make a decision for wich app sugest.</p>
 
 </div>
 </div>
